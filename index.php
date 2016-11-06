@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en" dir="ltr">
-    <head>
+<html>
+    <head class="no-js" lang="en" dir="ltr">>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Clean Theme</title>
+        <title>Clean Template</title>
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/hover.css">
-        <link rel="stylesheet" href="css/app.css">    
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="top-bar">
@@ -53,57 +53,54 @@
             </div>
         </header>
         
-        <section class="title-section">
-            <p class="welcome-text">Welcome To</p>
-            <h1>Blog Post 1</h1>
-            <p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium efficitur justo ut malesuada.
-            Donec efficitur commodo est, sed maximus nisi pulvinar Etiam sem tortor</p>
-        </section>
-        
-        <div class="row">
-            <div class="large-8 columns">
-                <article class="single-blog-post">
-                    <div class="post-thumbnail">
-                        <img src="img/post1.jpg">
-                    </div>
-                    <div class="meta">
-                        <ul>
-                            <li><i class="fa fa-user"></i> Admin</li>
-                            <li><i class="fa fa-calendar"></i> May 13, 2016</li>
-                            <li><i class="fa fa-folder"></i> Photography, Design</li>
-                        </ul>
-                    </div>
-                    <h3>Post One Title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium efficitur justo ut malesuada. 
-                    Donec efficitur commodo est, sed maximus nisi pulvinar Etiam sem tortor, tincidunt quis</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas, neque sit amet posuere sollicitudin, 
-                    quam mi ullamcorper quam, in volutpat leo libero eget dolor. Mauris id euismod magna. Curabitur suscipit felis ante, 
-                    sit amet ultricies nunc blandit at. Pellentesque sagittis vestibulum sapien, sit amet auctor odio tristique a. Ut enim augue,
-                    viverra auctor nibh vitae, molestie imperdiet ante. Aliquam non ante id orci imperdiet convallis</p>
-                </article>    
-            </div>  
-            <div class="large-4 columns">
-                <div class="well">
-                    <div class="sidebar-widget">
-                        <h3>Categories</h3>
-                        <ul>
-                            <li><a href="#">Some Link</a></li>
-                            <li><a href="#">Some Link</a></li>
-                            <li><a href="#">Some Link</a></li>
-                            <li><a href="#">Some Link</a></li>
-                        </ul>
-                    </div>
-                    <div class="sidebar-widget">
-                        <h3>Archives</h3>
-                        <ul>
-                            <li><a href="#">April 2016</a></li>
-                            <li><a href="#">May 2016</a></li>
-                        </ul>
-                    </div>
-                </div>    
+        <article class="post">
+            <div class="post-desc">
+                <span>May 14, 2016</span>
+                <h3>Post One Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium efficitur justo ut malesuada. 
+                Donec efficitur commodo est, sed maximus nisi pulvinar Etiam sem tortor, tincidunt quis</p>
+                <h3>
+                    <a class="read-btn read-more-btn hvr-bounce-out"></a>
+                </h3>
             </div>
-        </div>
+            <div class="post-img">
+                <img src="img/pic1.jpg">
+            </div>
+        </article>
 
+        <article class="post">
+            <div class="post-desc float-right">
+                <span>May 14, 2016</span>
+                <h3>Post Two Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium efficitur justo ut malesuada.
+                Donec efficitur commodo est, sed maximus nisi pulvinar Etiam sem tortor, tincidunt quis</p>
+                <h3>
+                    <a class="read-btn read-more-btn hvr-bounce-out"></a>
+                </h3>
+            </div>
+            <div class="post-img">
+                <img src="img/pic2.jpg">
+            </div>
+        </article>
+
+        <article class="post">
+            <div class="post-desc">
+                <span>May 14, 2016</span>
+                <h3>Post Three Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium efficitur justo ut malesuada. 
+                Donec efficitur commodo est, sed maximus nisi pulvinar Etiam sem tortor, tincidunt quis</p>
+                <h3>
+                    <a class="read-btn read-more-btn hvr-bounce-out"></a>
+                </h3>
+            </div>
+            <div class="post-img">
+                <img src="img/pic3.jpg">
+            </div>
+        </article>
+        
+        <div class="clearfix">
+        </div>
+        
         <footer class="main-footer">
             <div class="large-3 columns">
                 <h3>About Us</h3>
@@ -143,5 +140,4 @@
         <script src="js/vendor/foundation.js"></script>
         <script src="js/app.js"></script>    
     </body>
-    
 </html>
